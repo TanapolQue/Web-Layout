@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f0f0f0;
+}
+
+.hero-con {
+    display: flex;;
+}
+
+.hero-info {
+    width: 100%;
+    padding: 7.5rem 2rem;
+
+}
+
+.hero-img img {
+    width: 100%;
+    padding: 5rem 2rem;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+}
+
+.hero-info .hero-btn {             /* base to hover*/
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero-info .hero-btn:hover {       /* Add hover; underline */
+    text-decoration: underline;
+}
+
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-title {
+    margin: 2rem 0;
+}
+
+.blog-item img {
+    width: 100%;
+    
+}
+
+.blog-item h4 {
+    margin-top: 1rem;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;   
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.footer-top-item:nth-child(2) h4, 
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-top-item:nth-child(3) i {
+    margin-bottom: 0.5rem;
+    margin-right: 10px;
+}
+
